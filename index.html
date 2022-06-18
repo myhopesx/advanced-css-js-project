@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AmPottery's Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">AmPottery's</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#catalog">Catalog</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#newsletter">News</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-dark" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- banner ----- -->
+    <section class="banner">
+      <div class="d-flex flex-column align-items-left justify-content-end">
+        <div class="bd-highlight"><h1>Pottery Made With Love</h1></div>
+        <div class="bd-highlight">
+          <h3>
+            Every items is created with a focus on the smallest details With
+            great care and high quality in our studio
+          </h3>
+        </div>
+
+        <div class="d-flex btns">
+          <input
+            class="btn btn-secondary mx-5 px-5 py-3"
+            id="btn1"
+            type="button"
+            onClick="document.getElementById('catalog').scrollIntoView();"
+            value="PURCHASE"
+          />
+
+          <input
+            class="btn btn-secondary px-5"
+            id="btn2"
+            type="button"
+            onClick="document.getElementById('about').scrollIntoView();"
+            value="LERN MORE"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>
+              <span class="about-world"> About me</span> I started in my
+              university stage designing pottery products and giving them as
+              gifts to my close friends.<br />
+              Today I own a studio made up of talented designers and executors.
+              This gives them an opportunity to release their creativity and use
+              all the tools they have to offer the best pottery products.
+            </h2>
+          </div>
+          <div class="col">
+            <img src="images/about.jfif" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="catalog">
+      <div class="d-flex flex-column bd-highlight mb-3 align-items-center">
+        <div class="p-2 bd-highlight"><h1>Our Items</h1></div>
+        <div class="p-2 bd-highlight">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="card" style="width: 18rem">
+                  <img src="images/P1.jfif" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <p class="card-text">
+                      Water Bottle <br />
+                      <span class="price">300 SR</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card" style="width: 18rem">
+                  <img src="images/P2.jfif" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <p class="card-text">
+                      Cooking Spoon Base <br />
+                      <span class="price">150 SR</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card" style="width: 18rem">
+                  <img src="images/P3.jfif" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <p class="card-text">
+                      Chinees Tea Cup <br />
+                      <span class="price">100 SR</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card" style="width: 18rem">
+                  <img src="images/P4.jfif" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <p class="card-text">
+                      Thermal Bottle <br />
+                      <span class="price">270 SR</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card" style="width: 18rem">
+                  <img src="images/P5.jfif" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <p class="card-text">
+                      Tea Bottle <br />
+                      <span class="price">300 SR</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card" style="width: 18rem">
+                  <img src="images/P6.jfif" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <p class="card-text">
+                      Oil Bottle <br />
+                      <span class="price">190 SR</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card" style="width: 18rem">
+                  <img src="images/P7.jfif" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <p class="card-text">
+                      Tea Cup <br />
+                      <span class="price">170 SR</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card" style="width: 18rem">
+                  <img src="images/P8.jfif" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <p class="card-text">
+                      Flower Vase <br />
+                      <span class="price">400 SR</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="newsletter">
+      <div class="d-flex justify-content-center align-items-center">
+          <div class="px-4 bd-highlight">
+            <img src="images/news.jfif" alt="" />
+          </div>
+          <div class="p-2 bd-highlight" id="textDive"><span>To always stay </span> 
+            informed of our news, subscribe to 
+            our newsletter and enjoy!
+
+            <div class="d-flex align-items-center">
+                <input type="text" id="email" name="email" placeholder="Enter Your Email">
+                
+                <input
+                class="btn btn-secondary"
+                id="btn3"
+                type="button"
+                value="Subscribe"
+              />
+
+            </div>
+           
+     
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+        <p>Created by: <a href="https://www.linkedin.com/in/amaal-alzhrani-011a35226/">Amaal Alzhrani</a></p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    
+    <script
+      src="index.js"
+    ></script>
+  </body>
+</html>
